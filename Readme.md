@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/SaveAsImage/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/SaveAsImage/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/SaveAsImage/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/SaveAsImage/MainWindow.xaml))
+<!-- default file list end -->
 # DXRichEdit for WPF: How to print a document as a series of images
 
 
