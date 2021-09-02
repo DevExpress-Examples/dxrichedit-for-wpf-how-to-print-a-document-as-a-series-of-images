@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Windows
+﻿Imports System.Windows
 #Region "#usings"
 Imports DevExpress.XtraPrinting
 Imports DevExpress.XtraPrintingLinks
@@ -14,6 +13,7 @@ Namespace SaveAsImage
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 
@@ -24,7 +24,7 @@ Namespace SaveAsImage
 			Me.Cursor = System.Windows.Input.Cursors.Wait
 '			#Region "#saveasimage"
 			Dim pcl As New PrintableComponentLinkBase(New PrintingSystemBase())
-			pcl.Component = (CType(richEditControl1, IRichEditControl)).InnerControl
+			pcl.Component = DirectCast(richEditControl1, IRichEditControl).InnerControl
 			pcl.CreateDocument(False)
 			Dim imgOptions As New ImageExportOptions()
 			imgOptions.ExportMode = ImageExportMode.DifferentFiles
