@@ -7,7 +7,7 @@
 # DXRichEdit for WPF - How to Print a Document as a Series of Images
 
 
-This example utilizes the Printing library to save a document as a series of images.  A [PrintableComponentLinkBase](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrintingLinks.PrintableComponentLinkBase) instance is created for the current RichEditControl. The [ExportToImage](https://docs.devexpress.com/CoreLibraries/devexpress.xtraprinting.linkbase.exporttoimage.overloads) method enables you to specify [ImageExportOptions(https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.ImageExportOptions) and create a series of images representing the document page-by-page.
+This example utilizes the Printing library to save a document as a series of images.  A [PrintableComponentLinkBase](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrintingLinks.PrintableComponentLinkBase) instance is created for the current RichEditControl. The [ExportToImage](https://docs.devexpress.com/CoreLibraries/devexpress.xtraprinting.linkbase.exporttoimage.overloads) method enables you to specify [ImageExportOptions](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.ImageExportOptions) and create a series of images representing the document page-by-page.
 
 ## Files to Review
 
