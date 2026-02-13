@@ -21,7 +21,7 @@ This example utilizes the Printing library to save a document as a series of ima
 
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=dxrichedit-for-wpf-how-to-print-a-document-as-a-series-of-images&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=dxrichedit-for-wpf-how-to-print-a-document-as-a-series-of-images&~~~was_helpful=no)
 
